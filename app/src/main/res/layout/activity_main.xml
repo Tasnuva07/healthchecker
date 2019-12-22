@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1E0E6"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/weightid"
+        android:layout_marginBottom="10dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Weight(kg)"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#CE255E"
+        android:textCursorDrawable="@null"
+        />
+    <EditText
+        android:id="@+id/heightid"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Height(meter)"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#CE255E"
+        android:layout_marginBottom="10dp"
+        android:textCursorDrawable="@null"
+
+        />
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/ageid"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Age(years)"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#CE255E"
+        android:layout_marginBottom="10dp"
+        android:textCursorDrawable="@null"
+
+        />
+    <EditText
+        android:layout_marginTop="150dp"
+        android:id="@+id/sugarid"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Blood sugar"
+        android:inputType="text"
+        android:backgroundTint="#CE255E"
+        android:layout_marginBottom="10dp"
+        android:textCursorDrawable="@null"
+
+        />
+    <EditText
+        android:layout_marginTop="200dp"
+        android:id="@+id/bpid"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Blood pressure"
+        android:inputType="text"
+        android:backgroundTint="#CE255E"
+        android:layout_marginBottom="10dp"
+        android:textCursorDrawable="@null"
+
+        />
+
+    <RadioGroup
+        android:id="@+id/radid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_marginTop="250dp"
+            android:id="@+id/malebutid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            />
+        <RadioButton
+            android:id="@+id/femalebutid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            />
+
+    </RadioGroup>
+
+    <Spinner
+        android:layout_marginTop="330dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerid">
+
+    </Spinner>
+
+
+    <Button
+        android:layout_marginTop="400dp"
+        android:id="@+id/buttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginBottom="-276dp" />
+
+
+</RelativeLayout>

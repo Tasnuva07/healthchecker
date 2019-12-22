@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B1E0E6"
+    android:padding="10dp"
+    tools:context=".second">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/bmiid2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#CE255E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmiresid2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmrid2"
+        android:textColor="#CE255E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_marginTop="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tdeeid2"
+        android:textColor="#CE255E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="140dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tdeeresid2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_marginTop="250dp"
+        android:id="@+id/addbuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD DATA"
+        android:layout_marginBottom="-276dp" />
+    <Button
+        android:layout_marginTop="300dp"
+        android:id="@+id/viewbuttonid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW DATA"
+        android:layout_marginBottom="-276dp" />
+
+
+
+
+</RelativeLayout>
